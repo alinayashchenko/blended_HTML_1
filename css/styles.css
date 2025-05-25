@@ -1,0 +1,153 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #22343d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #22343d;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.93;
+}
+
+.header-nav-link {
+    font-size: 16px;
+    line-height: 1.75;
+    padding: 26px 0;
+    display: block;
+}
+
+.header-nav-link.accent {
+    font-weight: 600;
+}
+
+.header-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 24px;
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+    background-color: white;
+}
+
+.header-btn.accent {
+    background-color: #02897a;
+    border: 1px solid #02897a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    margin-left: 237px;
+    gap: 30px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn-list {
+    display: flex;
+    gap: 21px; 
+}
+
+.section-one .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one {
+    margin-top: 25px;
+}
+
+.left-container {
+    width: 465px;
+    padding-top: 112px;
+}
+
+.title-sec-one {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.paragraph-sec-one {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    margin-bottom: 56px;
+}
+
+.button-start {
+    min-width: 178px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 42px 14px 42px;
+    border-radius: 4px;
+    background-color: #02897a;
+    border: 1px solid #02897a;
+    color: white;
+    margin-right: 30px;
+}
+
+.link-watch {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-link {
+    width: 20px;
+    height: 18px;
+    border-radius: 2px;
+    margin-right: 8.66px;
+}
+
+.image-sec-one {
+    width: 610px;
+    height: 555px;
+}
